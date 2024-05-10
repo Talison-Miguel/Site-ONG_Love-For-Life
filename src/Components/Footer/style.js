@@ -15,6 +15,10 @@ export const Container = styled.footer`
         @media (max-width: 920px) {
             height: auto;
         }
+
+        @media (max-width: 620px) {
+            background-size: cover;
+        }
     `}
 `;
 

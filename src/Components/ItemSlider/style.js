@@ -80,17 +80,20 @@ export const TitleInformation = styled.h3`
         font-size: 30px;
         font-family: ${theme.font.typewriterSerial};
         margin-top: 40px;
+        max-width: 100%;
 
         @media (max-width: 920px) {
             font-size: 28px;
         }
 
         @media (max-width: 640px) {
-            font-size: 24px;
+            font-size: 20px;
+            margin-top: 20px;
         }
 
         @media (max-width: 321px) {
             margin-top: 8px;
+            font-size: 17px;
         }
     `}
 `;
@@ -108,8 +111,6 @@ export const TextInformation = styled.p`
         @media (max-width: 920px) {
             font-size: 14px;
         }
-
-        
     `}
 `;
 
