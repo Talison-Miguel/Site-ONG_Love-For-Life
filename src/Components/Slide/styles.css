@@ -87,7 +87,7 @@ position: relative;
 
 .dots {
     display: flex;
-    padding-top: 30px;
+    padding-top: 20px;
     justify-content: center;
 }
 
