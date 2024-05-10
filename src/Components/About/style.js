@@ -12,12 +12,12 @@ export const Container = styled.section`
     `}
 
     @media (max-width: 1230px) {
-        padding: 200px 30px;
+        padding: 200px 20px;
         padding-bottom: 120px;
     }
 
     @media (max-width: 817px) {
-        padding: 240px 30px;
+        padding: 240px 20px;
         padding-bottom: 120px;
     }
 `;

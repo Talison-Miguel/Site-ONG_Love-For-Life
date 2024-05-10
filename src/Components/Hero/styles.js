@@ -153,7 +153,7 @@ export const ContainerHelp = styled.div`
         flex-wrap: wrap;
 
         @media (max-width: 1230px) {
-            padding: 0 30px;
+            padding: 0 20px;
         }
 
         @media (max-width: 820px) {

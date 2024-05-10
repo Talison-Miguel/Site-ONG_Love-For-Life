@@ -36,7 +36,7 @@ export const SlideContainer = styled.div`
         }
 
         @media (max-width: 640px) {
-            max-width: calc(100% - 60px);
+            max-width: calc(100% - 40px);
         }
     `}
 `;

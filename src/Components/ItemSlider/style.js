@@ -30,7 +30,15 @@ export const Slide = styled.div`
         background-color: ${theme.colors.white};
         display: flex;
         flex-direction: column;
-        max-height: 94vh;
+        max-height: 98vh;
+
+        @media (max-width: 640px) {
+            /* min-height: 100vh; */
+        }
+
+        @media (max-height: 580px) {
+            min-height: 100vh;
+        }
     `}
 `;
 
@@ -44,7 +52,6 @@ export const Information = styled.div`
 
         @media (max-width: 1180px) {
             max-width: 90%; 
-            
         }
 
         @media (max-width: 740px) {
@@ -103,13 +110,23 @@ export const TextInformation = styled.p`
         color: ${theme.colors.lightBlack};
         font-size: 16px;
         font-family: ${theme.font.arial};
-        margin-top: 20px;
         line-height: 18px;
         letter-spacing: 0.3px;
+        margin-top: 20px;
         margin-bottom: 20px;
 
         @media (max-width: 920px) {
             font-size: 14px;
+        }
+
+        @media (max-width: 480px) {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        @media (max-height: 580px) {
+            margin-top: 20px;
+            margin-bottom: 20px;
         }
     `}
 `;
@@ -184,6 +201,12 @@ export const Photo = styled.img`
         @media (max-width: 400px) {
             height: 205px;
         }
+
+        @media (max-width: 360px) {
+            height: 154px;
+        }
+
+        
     `}
 `;
 

@@ -44,7 +44,7 @@ export function Slide() {
       smallPhoto: slidephoto2,
       title: 'Aldeia Tekoa Pyau',
       firstP: 'Realizamos ações na aldeia Tekoa Pyau no intuito de melhorar a saúde das crianças, com atendimento médico e odontológico em parceria com a ONG SAS Brasil. Os profissionais da saúde atendem não só as crianças, mas todos os familiares, realizando consultas e direcionando ao tratamento se necessário.',
-      secondP: 'Contamos também com o o apoio de veterinários, pois a comunidade tem muitos animais que necessitam de acolhimento e tratamento tais como vacinas. Não sendo tratados e vacinados, podem contrair e transmitir doenças e causar sofrimento',
+      secondP: 'Contamos também com o o apoio de veterinários, pois a comunidade tem muitos animais que necessitam de acolhimento e tratamento tais como vacinas.',
       city: 'Jaraguá - SP',
     },
     {

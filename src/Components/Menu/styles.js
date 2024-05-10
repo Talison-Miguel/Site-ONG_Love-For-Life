@@ -28,7 +28,7 @@ export const Nav = styled.nav`
         z-index: 999;
         
         @media (max-width: 1230px) {
-            padding: 0 30px;
+            padding: 0 20px;
         }
     `}
 `;

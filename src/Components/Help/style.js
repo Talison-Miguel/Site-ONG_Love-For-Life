@@ -8,7 +8,7 @@ export const Container = styled.section`
 
 
         @media (max-width: 1220px) {
-            padding: 120px 30px;
+            padding: 120px 20px;
             max-width: 100%;
         }
     `}
@@ -186,6 +186,11 @@ export const ParagraphHelp = styled.p`
 
         @media (max-width: 920px) {
             font-size: 14px;
+        }
+
+        @media (max-width: 480px) {
+            margin: 0 auto;
+            max-width: 80%;
         }
     `}
 `;
