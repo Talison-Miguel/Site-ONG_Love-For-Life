@@ -8,6 +8,14 @@ import { ItemSlider } from '../ItemSlider/index.jsx';
 
 import slide1 from '../../assets/images/slide1.jpg'
 import slidephoto1 from '../../assets/images/slidephoto1.png'
+import slide2 from '../../assets/images/slide2.jpg'
+import slidephoto2 from '../../assets/images/slidephoto2.png'
+import slide3 from '../../assets/images/slide3.jpg'
+import slidephoto3 from '../../assets/images/slidephoto3.png'
+import slide4 from '../../assets/images/slide4.jpg'
+import slidephoto4 from '../../assets/images/slidephoto4.png'
+import slide5 from '../../assets/images/slide5.jpg'
+import slidephoto5 from '../../assets/images/slidephoto5.png'
 
 export function Slide() {
   const [currentSlide, setCurrentSlide] = useState(0)
@@ -32,32 +40,32 @@ export function Slide() {
       city: 'Campo Limpo - SP',
     },
     {
-      photo: slide1,
-      smallPhoto: slidephoto1,
+      photo: slide2,
+      smallPhoto: slidephoto2,
       title: 'Aldeia Tekoa Pyau',
       firstP: 'Realizamos ações na aldeia Tekoa Pyau no intuito de melhorar a saúde das crianças, com atendimento médico e odontológico em parceria com a ONG SAS Brasil. Os profissionais da saúde atendem não só as crianças, mas todos os familiares, realizando consultas e direcionando ao tratamento se necessário.',
       secondP: 'Contamos também com o o apoio de veterinários, pois a comunidade tem muitos animais que necessitam de acolhimento e tratamento tais como vacinas. Não sendo tratados e vacinados, podem contrair e transmitir doenças e causar sofrimento',
       city: 'Jaraguá - SP',
     },
     {
-      photo: slide1,
-      smallPhoto: slidephoto1,
+      photo: slide3,
+      smallPhoto: slidephoto3,
       title: 'Amor em movimento',
       firstP: 'O projeto une solidariedade e atividades físicas através de aulões funcionais, onde os voluntário participam das aulas e doam alimentos que são distribuídos para as comunidades atendidas pela ONG',
       secondP: 'Além de incentivar os voluntários a prática de partilhar, também incentiva a prática de atividades físicas gerando uma maior qualidade de vida',
       city: 'São Paulo - SP',
     },
     {
-      photo: slide1,
-      smallPhoto: slidephoto1,
+      photo: slide4,
+      smallPhoto: slidephoto4,
       title: 'Ações emergenciais',
       firstP: 'Nesse projeto a ONG distribui sopas quentinhas, kits de higiene pessoal, calçados, roupas e mantas nas ruas do centro de São Paulo durante o inverno. Ajudando a aquecer a população de rua que não tem acesso a esses itens e sofrem com o frio intenso. São doados também brinquedos e doces para as crianças, além de fraldas e lenços umedecidos.',
       secondP: 'Todo o trabalho é realizado com muito carinho e amor, com o objetivo não somente de doar, mas de acolher a todos com amor.',
       city: 'Ruas do Centro de São Paulo',
     },
     {
-      photo: slide1,
-      smallPhoto: slidephoto1,
+      photo: slide5,
+      smallPhoto: slidephoto5,
       title: 'Ocupações/Comunidades',
       firstP: 'A ONG atende outros locais em ações esporádicas, onde temos crianças em situação de vulnerabilidade. Com a doação de brinquedos, kit de doces, roupas e leite. Sempre fazendo uma grande festa com recreação, atividades lúdicas e muita troca de amor entre os voluntários e as crianças.',
       secondP: 'Em 2023 a ONG atendeu mais de 6 comunidades, com cerca de 1000 crianças beneficiadas.',

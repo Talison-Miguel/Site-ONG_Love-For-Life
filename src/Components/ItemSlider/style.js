@@ -65,7 +65,6 @@ export const Information = styled.div`
 
             @media (max-width: 740px) {
                 width: 124px;
-                margin-bottom: 60px;
             }
 
             @media (max-width: 480px) {
@@ -139,16 +138,27 @@ export const SpanInformation = styled.span`
 `;
 
 export const ContainerPhoto = styled.div`
-    ${() => css`
+    ${({ theme }) => css`
         margin: 0 auto;
         margin-top: 40px;
         position: relative;
+
         @media (max-width: 1180px) {
             max-width: 90%; 
         }
 
         @media (max-width: 780px) {
             margin-top: 20px;
+        }
+
+        &:before {
+            content: '';
+            width: 50px;
+            height: 50px;
+            background-color: ${theme.colors.white};
+            bottom: 0;
+            right: 0;
+            position: absolute;
         }
     `}
 `;
@@ -196,9 +206,9 @@ export const SmallPhoto = styled.img`
         }
 
         @media (max-width: 740px) {
-            width: 120px;
-            height: 120px;
-            bottom: -20px;
+            width: 140px;
+            height: 140px;
+            bottom: -16px;
         }
 
         @media (max-width: 400px) {

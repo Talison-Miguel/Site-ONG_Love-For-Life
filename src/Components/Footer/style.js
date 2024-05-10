@@ -50,7 +50,7 @@ export const ContentItens = styled.div`
 export const PFooter = styled.p`
     ${({ theme }) => css`
         color: ${theme.colors.white};
-        background-color: ${theme.colors.red2};
+        background-color: ${theme.colors.secondDarkRed};
         width: 100%;
         height: 80px;
         display: flex;

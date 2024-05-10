@@ -33,7 +33,7 @@ export const Nav = styled.nav`
     `}
 `;
 
-export const ListItemMenu = styled.ul.attrs(props => ({ isactive: props.isactive ? 'true' : undefined}))`
+export const ListItemMenu = styled.ul.attrs(props => ({ isactive: props.isactive ? 'true' : undefined }))`
     ${({ theme }) => css`
         display: flex;
         gap: 40px;

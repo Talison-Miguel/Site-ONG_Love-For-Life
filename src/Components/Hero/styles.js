@@ -161,6 +161,16 @@ export const ContainerHelp = styled.div`
             padding: 30px 20px;
             justify-content: center;
         }
+
+        & > a {
+            @media (max-width: 660px) {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+        }
     `}
 `;
 
@@ -180,6 +190,10 @@ export const PHelp = styled.p`
         
         @media (max-width: 460px) {
             font-size: 16px;
+        }
+
+        @media (max-width: 400px) {
+            font-size: 14px;
         }
     `}
 `;

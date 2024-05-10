@@ -20,9 +20,9 @@ export function Menu() {
 
     return (
         <Styled.Container>
-            <Styled.Nav>
+            <Styled.Nav >
                 <a href="#"><img src={logo} alt="logo Love For Life" /></a>
-                <Styled.ListItemMenu isactive={isActive}>
+                <Styled.ListItemMenu isactive={isActive} id="list-menu">
                     <li><a href="#" onClick={handleCloseMenu}>Home</a></li>
                     <li><a href="#sobre" onClick={handleCloseMenu}>Sobre</a></li>
                     <li><a href="#project" onClick={handleCloseMenu}>Projetos</a></li>
