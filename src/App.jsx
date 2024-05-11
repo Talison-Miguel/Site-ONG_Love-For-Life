@@ -7,8 +7,15 @@ import { About } from './Components/About'
 import { SlideProjects } from './Components/SlideProjects'
 import { Footer } from './Components/Footer'
 import { Help } from './Components/Help'
+import { useEffect } from 'react'
+
+import initAOS from './aosInit';
 
 function App() {
+    useEffect(() => {
+        initAOS();
+    }, []);
+
     return (
         <ThemeProvider theme={theme} >
             <GlobalStyles />

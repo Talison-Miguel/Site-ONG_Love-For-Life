@@ -5,7 +5,7 @@ import { Information } from '../Information/index.jsx';
 
 export function About() {
     return (
-        <Styled.Container id='sobre'>
+        <Styled.Container id='sobre' data-aos="fade-up">
             <Styled.TitleAbout>Sobre</Styled.TitleAbout>
             <Styled.ContentSobre>
                 <Styled.AboutUs>

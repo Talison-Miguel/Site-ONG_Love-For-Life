@@ -7,7 +7,7 @@ import arrow from '../../assets/images/arrow.png'
 
 export function Help() {
     return (
-        <Styled.Container id='help'>
+        <Styled.Container id='help'  data-aos="zoom-in">
             <Styled.TitleHelp>Venha fazer a diferença!</Styled.TitleHelp>
             <Styled.SubTitleHelp>Você pode ajudar de várias formas</Styled.SubTitleHelp>
             <Styled.ContentContainer>

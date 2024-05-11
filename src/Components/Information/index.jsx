@@ -9,18 +9,18 @@ import numberIcon from '../../assets/images/numberIcon.png'
 export function Information() {
     return (
         <Styled.Container>
-            <ItemInformation image={iconBook} title={'Missão'} >
+            <ItemInformation image={iconBook} title={'Missão'}>
                 Promover a integração social entre voluntários e crianças em situação de vulnerabilidade, criando conexão e amor afim de torná-las pessoas melhores.
             </ItemInformation>
-            <ItemInformation image={visionIcon} title={'Visão'} >
+            <ItemInformation image={visionIcon} title={'Visão'}>
                 Mudar a vida das pessoas através do trabalho voluntário, gerando uma inquietude capaz de transformar vidas e o mundo ao seu redor.
             </ItemInformation>
-            <ItemInformation image={valueIcon} title={'Valores'} >
+            <ItemInformation image={valueIcon} title={'Valores'}>
                 Amor, Ética
                 <br/>Empatia, Respeito
                 <br/>Igualdade, Diversidade, Solidariedade
             </ItemInformation>
-            <ItemInformation image={numberIcon} title={'Números'} >
+            <ItemInformation image={numberIcon} title={'Números'}>
                 +700 Voluntários 
                 <br/> +6 Comunidade Impactadas
                 <br/> +600 Famílias Impactadas mensalmente 
