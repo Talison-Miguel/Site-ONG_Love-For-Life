@@ -12,6 +12,7 @@ export const DivHero = styled.div`
         background-position: center;
         background-attachment: local;
         position: relative;
+        z-index: 99999;
     `}
 `;
 
